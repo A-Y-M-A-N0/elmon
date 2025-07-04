@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+  
+  
+  * {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "poppins",serif; 
+ }
+
+body {
+  background-color: #222831;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto ;
+    padding: 0 0.5rem;
+    max-width: 1200px;
+}
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+.navigation a {
+    text-decoration: none;
+    color: #eeee;
+}
+
+.navigation a:hover {
+    color: #00adb5;
+}
+hr{
+opacity: 10%;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem;
+    max-width: 1200px;
+}
+.arrowP{
+    position: absolute;
+    transform: translateX(-5.5rem) translateY(1.5rem);
+}
+.herosub{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.name{
+    font-size: 3rem;
+    color: #eeeeee;
+}
+.title{
+    font-size: 4rem;
+    color: #00adb5;
+}
+
+* .aboutme{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+.textcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.textTitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+.aboutname{
+    color: #eeeeee;
+}
+.aboutTitle{
+    color: #00adb5;
+
+}
+.aboutmepar{
+    text-align: justify;
+    color: rgba(238, 238, 238, 0.75);
+}
+.phone{
+   text-align: justify; 
+   display: flex;
+   align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+    color: #00adb5;
+}
